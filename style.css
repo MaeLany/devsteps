@@ -24,10 +24,12 @@
       }
 
   /* nav var */
- .container-fluid {
-    background: var(--colo-enfasis);
-  }
+
   /* fondo icono logo */
-  .bg-body-tertiary {
-    background: #00000000;
+
+
+  @media screen and (max-width: 782px) {
+    h2 {
+      font-size: 25px;
+    }
   }
